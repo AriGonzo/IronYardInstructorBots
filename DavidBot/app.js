@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var submit = document.getElementById('submit');
   submit.addEventListener('click', function(){
       event.preventDefault();
-      play()
+      search()
       setTimeout(search, 2000);
       });
   });
