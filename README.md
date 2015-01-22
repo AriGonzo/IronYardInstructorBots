@@ -11,3 +11,7 @@ Chrome Extensions made for Iron Yard Orlando instructors
 * Highlight the folder of the bot of your choice
 * Click 'Select'
 * Enjoy!
+
+### Coming Soon...
+
+The Mighty BenBot!
