@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+      <!-- <button class="primary">HipChat It</button> -->
+      <div class="david">
+        <figure class="davidbot">
+        <img src="https://avatars1.githubusercontent.com/u/96015?v=3&s=400" id="david" alt="David Sans-Hat">
+        <img src="DavidwithHat.png" id="davidHat" alt="David w/ Hat" class="hidden">
+        <figcaption><h1>The Mighty DavidBot! <button id="hat">Hat or no Hat?</button></h1></figcaption>
+        </figure>
+      <form>
+        <textarea class="form-control" placeholder="Tell me about this link" id="question"></textarea>
+        <div id="buttons">
+          <button id="submit">SUBMIT</button>
+          <button id="hipchat"><span class='fa fa-comment fa-flip-horizontal'></span></button>
+        </div>
+      </form>
+      </div>
+    </div>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

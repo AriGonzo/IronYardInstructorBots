@@ -1,0 +1,68 @@
+/* DavidBot CSS */
+
+body {
+  background-color: #f2eded;
+  background-image: url(http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0152/6961/rrrobot_circut_black_gray_preview.png);
+}
+
+.david {
+  margin: 30px;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-style: italic;
+  
+}
+.davidbot img {
+  margin: auto;
+  width: 100%;
+  /** on submit change margin-left to 40%;
+  and add width: 20%;
+  */
+}
+iframe {
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+form {
+  /*width: 100%;*/
+  margin: 0 -20px;
+}
+
+button{
+  margin: 2px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 0;
+  background-color: #7abce2;
+}
+
+#buttons {
+  margin: auto;
+  width: 126%;
+  margin-top: 10px;
+}
+#davidHat {
+  /* z-index: -1; */
+  position: absolute;
+  top: 0;
+}
+
+button#hat {
+  margin: 8px 0;
+}
+
+button#hipchat{
+  width: 30%;
+}

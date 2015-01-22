@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "David Bot",
+  "description": "Everyone needs a little al-the-x to help them",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs",
+    "alarms",
+    "notifications",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "extension.html"
+  }
+}
