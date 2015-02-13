@@ -25,8 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 
-var apiBase = 'http://api.hipchat.com/v2/room/1093329/notification?auth_token='
-var auth_token = 'TOAf8J4LiaP6fz7a63WRix6d6I5BcHHGbiZTyrhT'
+var apiBase = 'https://slack.com/api/chat.postMessage?token=xoxp-3520991751-3717813329-3719698362-6afcf8&channel=C03JNHJ2R&text='
 
 document.addEventListener('DOMContentLoaded', function() {
   var linkToShare = '';
@@ -37,12 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
       chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
       $.ajax({
         type: 'POST',
-        url: apiBase + auth_token,
-        data: JSON.stringify({
-          'message' : $('#question').val() + " " + tabs[0].url,
-          'color'   : 'purple',
-          "message_format" : 'text'
-        }),
+        url: apiBase + $('#question').val() + " " + tabs[0].url + '&username=BrianBot&icon_url=http://i.imgur.com/NsTWOAa.png',
         error: function(e){
           console.log(e);
         },
